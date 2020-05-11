@@ -10,6 +10,7 @@ public class SampleClass {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.youtube.com/");
 		System.out.println(driver.getTitle());
+		System.out.println("End of test");
 		driver.quit();
 	}
 
